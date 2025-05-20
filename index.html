@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="maincontainer">
+        <h1 class="heading">Sign Up</h1>
+        <form action="" method="post" class="signupform">
+            <input type="text" class="inputfield" placeholder="Full Name" required>
+            <input type="email" class="inputfield" placeholder="Email" required>
+            <input type="password" class="inputfield" placeholder="Password" required>
+            <input type="password" class="inputfield" placeholder="Confirm Password" required>
+            <input type="date" class="inputfield" placeholder="dd/mm/yyyy" required>
+            <div class="radiocontainer">
+                <input type="radio" name="work" id="Student" value="Student" required>
+                <label for="Student">Student</label>
+                <input type="radio" name="work" id="Employee" value="Employee" required>
+                <label for="Employee">Employee</label>
+            </div>
+            <div class="checkboxcontainer">
+                <input type="checkbox" id="check" required>
+                <label for="check">I agree to all the Terms and conditions</label>
+            </div>
+            <button type="submit" class="submitbtn">Signup</button>
+
+        </form>
+
+    </main>        
+    
+</body>
+</html>
